@@ -35,3 +35,19 @@ The script also prints validation metrics (ROC-AUC, log-loss, Brier score).
 - FastF1 can take time on first run because sessions are downloaded/cached.
 - The model predicts **driver win probability**. The race winner prediction is the driver with highest probability for that event.
 - This is a baseline. You can improve it by adding qualifying pace, weather, circuit characteristics, and bookmaker odds.
+
+## Publish this project to GitHub
+
+If your repository is `https://github.com/Aravind953/f1-predicter.git`, run:
+
+```bash
+git remote add origin https://github.com/Aravind953/f1-predicter.git
+git push -u origin work
+```
+
+Then on your laptop you can clone it with:
+
+```bash
+git clone https://github.com/Aravind953/f1-predicter.git
+cd f1-predicter
+```
